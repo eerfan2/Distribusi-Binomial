@@ -1,0 +1,115 @@
+/* Background gradasi */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradasi warna ungu ke biru */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+/* Container dengan padding dan margin untuk memberikan jarak */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang putih transparan */
+    border-radius: 15px;
+}
+
+/* Card dengan bayangan halus dan border radius */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Bayangan lebih halus */
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+/* Menambahkan margin bawah pada h1 dan h2 */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Gaya untuk tampilan hasil perhitungan */
+.math {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Gaya untuk tampilan hasil perhitungan */
+.hasil {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Gaya untuk tombol */
+.btn-primary {
+    background-color: #2575fc;
+    border-color: #2575fc;
+}
+
+.btn-primary:hover {
+    background-color: #6a11cb;
+    border-color: #6a11cb;
+}
+
+/* Membuat border pada hasil perhitungan lebih menarik */
+.border-primary {
+    border-color: #2575fc !important;
+}
+
+.border-success {
+    border-color: #28a745 !important;
+}
+
+.d-inline-block {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Membuat tampilan input lebih menarik */
+input.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+input.form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+/* Container untuk judul dengan kotak */
+.title-box {
+    background-color: #2575fc; /* Warna latar belakang kotak */
+    color: white; /* Warna teks */
+    padding: 20px;
+    border-radius: 10px; /* Sudut melengkung */
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+    margin-bottom: 30px; /* Jarak bawah */
+}
+
+/* Judul utama di dalam kotak */
+.title-box h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Subjudul di dalam kotak */
+.title-box h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-top: 10px;
+    opacity: 0.8; /* Menurunkan sedikit opasitas untuk subjudul */
+}
+
+/* Gaya untuk tombol kembali */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
